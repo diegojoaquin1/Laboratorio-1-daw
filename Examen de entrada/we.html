@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen </title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bienvenidos al curso</h1>
+        <button onclick="mostrarNombre()">Mostrar Nombre Completo</button>
+        <button onclick="mostrarSobreMi()">Sobre mí</button>
+
+        <p id="nombre"></p>
+        <p id="info"></p>
+    </div>
+
+    <script>
+        function mostrarNombre() {
+            document.getElementById('nombre').innerText = "Diego Joaquín Cahuana Vera";
+        }
+
+        function mostrarSobreMi() {
+            document.getElementById('info').innerText = "Soy estudiante de segundo año de Ingeniería de Sistemas en la UNSA. Me gustan los videojuegos y el futbol.";
+        }
+    </script>
+</body>
+</html>
